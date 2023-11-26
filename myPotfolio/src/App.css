@@ -1,0 +1,309 @@
+
+body{
+    /* background-color: rgb(157, 148, 148);
+    color: white; */
+}
+
+.vish{
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* color: rgb(176, 118, 118); */
+  font-size: 100px;
+  gap: 30px;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 7px;
+
+}
+
+.navbar-nav{
+  gap: 30px;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: cursive;
+
+}
+
+
+
+
+.about{
+  height: 100%;
+  width: 50px;
+  background-color: aqua;
+
+}
+
+.img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+
+}
+.maincantener{
+  flex-direction: column;
+  
+}
+
+
+.fist{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  }
+  
+  .fist  img{
+      height: 260px;
+      width: 260px;
+      border-radius: 130px;
+  }
+  
+  .second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 900;
+    color:black;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .three{
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 900;
+  color:black;
+  margin-left: 20px;
+  margin-right: 20px;
+  }
+  
+  .four{
+      display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 900;
+  color:blue;
+  }
+  .five{
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-top: 10px;
+     
+  }
+  
+  .five img{
+      height: 170px;
+      width: 170px;
+      border-radius: 85px;
+  }
+  
+  .five button{
+      height: 200px;
+      width: 400px;
+      border-radius: 50px;
+      background-color: aliceblue;
+      border: none;
+      margin-top: 20px;
+  }
+  .five button:hover{
+      cursor: pointer;
+  
+  }
+
+  .secondpage{
+    height: 100%;
+    width: 100%;
+   
+    margin-top: 150px;
+    margin-bottom: 180px;
+  }
+
+  .threepage{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 900;
+
+      flex-direction: column;
+      margin-top: 400px;
+      margin-bottom: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  .fourpage{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .card{
+    height: 350px;
+    width: 250px;
+  border: 1px solid black;
+   
+    
+
+  }
+  .css{
+    color: rgb(21, 24, 24);
+  }
+
+
+  .card2 img{
+    height: 130px;
+  }
+
+  .html{
+    margin: 5% 35%;
+    color: rgb(94, 82, 82);
+    font-weight: 900;
+    text-decoration: underline;
+
+  }
+
+  .card h1{
+    margin: 5px 10px ;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .card h2{
+   margin: 5px 10px ;
+    font-size:25px;
+    font-weight: 700;
+  }
+  .card button{
+    margin: 5px 10px ;
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50px;
+    border: none;
+    color: white;
+  }
+  .card button:hover{
+    background-color: rgb(135, 135, 210);
+  }
+  @media only screen and (max-width:500px){
+      *{
+          margin: 0%;
+          padding: 0%;
+          box-sizing: border-box;
+         
+      }
+  
+      body,html{
+          height: 100%;
+          width: 100%;
+         
+      }
+      .fist{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+          }
+          
+          .fist img{
+              height: 200px;
+              width: 200px;
+              border-radius: 100px;
+          }
+  
+          .second{
+              display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 10px;
+          font-size: 20px;
+          font-weight: 900;
+          color:black;
+          }
+          .three{
+              display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 10px;
+          font-size: 20px;
+          font-weight: 900;
+          color:black;
+          margin-left: 20px;
+          margin-right: 20px;
+          }
+         
+          .four{
+              display: flex;
+          align-items: center;
+          justify-content: center;
+          margin-top: 40px;
+          font-size: 25px;
+          font-weight: 900;
+          color:blue;
+          }
+  
+          .five{
+              display: flex;
+              align-items: center;
+              justify-content: space-evenly;
+              flex-direction: column;
+           
+             
+          }
+          
+          .five img{
+              height: 200px;
+              width: 200px;
+          }
+          
+          .five button{
+              height: 200px;
+              width: 300px;
+            
+              background-color: aliceblue;
+            
+          }
+          .git{
+              margin-top: 50px;
+          }
+
+          .secondpage{
+            margin: 100px 30px;
+            
+          }
+          .three p{
+            font-size: 20px;
+          }
+        
+          .fourpage{
+            flex-direction: column;
+            margin-top: 30px;
+          }
+          .card{
+            margin-top:50px;
+            margin-bottom: 40px;
+          }
+
+          .threepage{
+            margin-top: 100px;
+            margin-bottom: 30px;
+          }
+  }
+
+
+
+
+
+
+
+
